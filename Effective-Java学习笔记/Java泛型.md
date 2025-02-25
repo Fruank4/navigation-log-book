@@ -175,17 +175,7 @@ List<Map<String, String>> list = new ArrayList<>();
 
 在Java7中，增加了SafeVarargs注解，它让带泛型vararg参数的方法的设计者能够自动禁止客户端的警告。
 
-@SafeVarargs 注解 意味着设计者做出了承诺：我保证，这个带有泛型的可变参数列表是安全的。
-
-
-
-
-
-借助类型令牌 Class<?>，实现一个类型安全的异构容器, myFavorite
-
-动态类型转换
-
-
+@SafeVarargs 注解 意味着设计者做出了承诺：我保证，这个带有泛型的可变参数列表是安全的.
 
 
 
